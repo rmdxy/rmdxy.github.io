@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raymond Li</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main-script.js"></script>
+
+    <link rel="icon" type="image/png" href="favicon-32x32.png?v=1" sizes="32x32" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/dmn5ham.css">
+
+</head>
+
+<body id="body">
+    <main>
+
+        <div id="img-container">
+            <div id="img">
+                <!img id="foodtruck-thumbnail" class="hidden" src="foodtruck/IMG_0034.webp" alt="foodtruck-thumbnail">
+                <img id="hypnagogia-thumbnail" class="hidden" src="/hypnagogia/thumbnail.gif" alt="hypnagogia-thumbnail">
+                <img id="google-thumbnail" class="hidden" src="google/google-ux-design-certificate.png" alt="google-thumbnail">
+                <!img id="tripview-thumbnail" class="hidden" src="tripview/tripview_logo.png" alt="tripview-thumbnail">
+                <!img id="burnout-thumbnail" class="hidden" src="emotion-min.gif" alt="burnout-thumbnail">
+                <img id="visuals-thumbnail" class="hidden" src="/visuals/cube.gif" alt="visuals-thumbnail">
+            </div>
+        </div>
+
+        <a id="aboutme" href="about/index.html" class="small-boy"><span>About Me</span></a>
+        <div class="main-area">
+            <h2>
+                <a id="hypnagogia" onmouseover="functionHypnagogia()" onmouseout="functionOut('hypnagogia-thumbnail')" href="hypnagogia/index.html"><span>Hypnogogia</span><sup>2023</sup></a>
+                <a id="google" onmouseover="functionGoogle()" onmouseout="functionOut('google-thumbnail')" href="google/index.html"><span>GoogleUX</span><sup>2022</sup></a>
+                <a id="visuals" onmouseover="functionVisuals()" onmouseout="functionOut('visuals-thumbnail')" href="visuals/index.html"><span>Visuals</span><sup>2021-</sup></a>
+            </h2>
+        </div>
+
+        <div id="me">
+            <a href="mailto:raymondli200@gmail.com"><p onmouseover="about()" onmouseout="out()" id="me-text">Raymond Li</p></a>
+        </div>
+
+    </main>
+</body>
+</html>
