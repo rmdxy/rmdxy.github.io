@@ -47,8 +47,8 @@ function functionTripView() {
     document.getElementById("tripview-thumbnail").className = "visible";
 }
 
-function functionBurnout() {
-    document.getElementById("burnout-thumbnail").className = "visible";
+function functionBoldr() {
+    document.getElementById("boldr-thumbnail").className = "visible";
 }
 
 function functionVisuals() {
